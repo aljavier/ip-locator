@@ -49,9 +49,9 @@ class GeoIP:
          
 
 def usage():
-  print """{0} [hostname | IP] 
-              examples:  www.google.com
-                        {0} 173.194.37.64""".format(sys.argv[0])
+  print """SimpleGeoIP [hostname | IP] 
+              examples: SimpleGeoIP www.google.com
+                        SimpleGeoIP 173.194.37.64"""
 
 def main():
   """ Metodo main """
@@ -75,7 +75,7 @@ def main():
   print "Latitude: %s" % info.get('latitude', 'Not available')
   print "Longitude: %s" % info.get('longitude', 'Not available')
   print "Metro Code: %s" % info.get('metro_code','Not available')
-  print "Area Code: %s" % info.get('area_code', 'Not available')
+  print "Area Code: %s" % info.get('areacode', 'Not available')
 
 if __name__ == "__main__":
     main()
