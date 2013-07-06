@@ -6,7 +6,7 @@
 #               n3x07                       #
 #   Visit http://netc0de.blogspot.com       #
 #                                           #
-#   Version 1.0                             #
+#   Version 1.0  - Tested with: Python 2.7  #
 #                                           #
 #############################################
 
@@ -75,8 +75,7 @@ def main():
   print "Latitude: %s" % info.get('latitude', 'Not available')
   print "Longitude: %s" % info.get('longitude', 'Not available')
   print "Metro Code: %s" % info.get('metro_code','Not available')
-  print "Area Code: %s" % info.get('areal
-  code', 'Not available')
+  print "Area Code: %s" % info.get('area_code', 'Not available')
 
 if __name__ == "__main__":
     main()
