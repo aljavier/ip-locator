@@ -65,8 +65,13 @@ def main():
   else:
     usage()
     sys.exit(2)
+
   info = json.load(result)
-  print "=== SHOWING INFORMATION ABOUT {0} ===".format(sys.argv[1])
+  # Delete all keys with empty values
+  for x in list(info.keys()):
+    if info[x] == '':
+        del info[x]
+  print "=== SHOWING INFORMATION ABOUT ==="
   print "Country Code: %s" % info.get('country_code','Not available')
   print "Country: %s" % info.get('country_name', 'Not available')
   print "Region Code: %s" % info.get('region_code','Not available')
