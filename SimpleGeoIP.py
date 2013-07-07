@@ -2,7 +2,7 @@
 #############################################
 #                                           #
 #         Simple GeoIP Script               #
-#	          by                              #
+#	                by                        #
 #               n3x07                       #
 #   Visit http://netc0de.blogspot.com       #
 #                                           #
