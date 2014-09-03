@@ -3,7 +3,7 @@
 #
 #  Coded by A. J. 
 #
-# This script use a geo webservice to locate an ip or host
+# This script use a geo webservice to locate an ip address
 # provided by arguments in a commandline.
 #
 # Licensed under GPLv2.
